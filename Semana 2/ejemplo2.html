@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Selectores Básicos</title>
+  <style>
+  /*Element selectors*/
+  body{
+    background-color: #589;
+  }
+  /*. is for classes*/
+  .primary-Heading{
+    color:blue;
+  }
+  /* # is for IDs*/
+  #welcome{
+    background-color: "a4a4a4";
+  }
+  /*Multiple selectors*/
+  #welcome, #about {
+    border: 1px solid #ccc;
+    padding: 10 px;
+    margin-bottom:5px;
+  }
+  /* Nested selectors*/
+  #welcome p{
+    font-size: 20px;
+  }
+  #about{
+    color: white;
+  }
+  </style>
+</head>
+<body>
+  <div id="welcome">
+    <h2 class="primary-Heading">Welcome</h2>
+      <p>Primer página con estilos 1</p>
+        </div>
+        <div id="about">
+          <h2>About</h2>
+            <h3>Welcome</h3>
+              <p>Para los japoneses, que saben tanto e intuyen más, las relaciones humanas están predestinadas por un hilo rojo
+                que los dioses atan a los dedos meñiques de aquellos que se encontrarán en la vida. De acuerdo a la leyenda,
+                las dos personas conectadas por este hilo tendrán una historia importante, sin importar el lugar, el tiempo o
+                las circunstancias. El hilo rojo se puede enredar, contraer y estirar, como seguramente a menudo ocurre, pero
+                nunca se puede romper.</p>
+            </div>
+        </body>
+</html>

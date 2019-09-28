@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Listas y tablas</title>
+</head>
+<style>
+  .block{
+    text-align: center;
+    background-color: green;
+  }
+  .list{
+    text-align: left;
+    /*display:inline-block;*/
+  }
+  .background{
+  text-align: right; rifthm visibility:
+  background: url("./imagenes/otoño.gif") no-repeat center center/cover;
+  color: #fff;
+  height: 20%;
+  width: 600px;
+  }
+  .fondo{
+  text-align: central;
+  background: url("./imagenes/otoño1.gif") no-repeat center center/cover;
+  color: #fff;
+  height: 10%;
+  width: 700px;
+  }
+  </style>
+<body>
+<!--listas NO ordenadas-->
+<ul>
+  <div class="background">
+    <ol class="list">
+<li>Módulo 1</li>
+  <li>Módulo 2</li>
+    <li>Módulo 3</li>
+      <li>Módulo 4</li>
+</ul>
+<!--listas ordenadas-->
+<div class="block">
+<ol class="list">
+  <li>Lógica Computacional</li>
+    <li>C++</li>
+      <li>HTML</li>
+        <li>Javascript</li>
+</ol>
+</div>
+ <!--listas anidadas-->
+ <ul>
+   <div class="fondo">
+    <ol class="list">
+   <li>Baskey</li>
+   <li>Futbol Americano<ul>
+     <li>cowboys</li>
+     <li>patriots</li>
+     </ul>
+     <li>futbol soccer
+       <ol>
+         <li>Real Madrid</li>
+           <li>Juventus</li>
+             <li>PSG</li>
+             </ol>
+             <li>Natación</li>
+           </ul>
+<!--LISTA DE DEFINICIONES-->
+  <dl>
+    <div class="background">
+      <ol class="list">
+    <dt>Que es HTML</dt>
+    <dd> Lenguaje de marcado que se utiliza para el desarrollo de páginas de Internet</dd>
+    </dl>
+    <dl>
+      <dt>Aqui va la segunda definicion</dt>
+      <dd>Descripción de segunda definicion</dd>
+    </dl>
+    <!--Tables-->
+<table style="width: 600px"> <!--Te lo mide por pixeles y porcentajes-->
+    <thead> <!--encabezado de tabla-->
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>doe@hotmail.com</td>
+          </tr>
+          <tr>
+            <td>Kate</td>
+            <td>Smith</td>
+            <td>kate@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Jeff</td>
+              <td>wilson</td>
+              <td>jeff@outlook.com</td>
+              </tr>
+        </tbody>
+    </table>
+  </body>
+</html>
